@@ -1,0 +1,59 @@
+/* In your CSS file (e.g., EmergencyPage.css) */
+.emergency-page {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #e74c3c; /* Red color for emergency */
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  /* You can add more styles as needed based on your design requirements */
+/* In your CSS file (e.g., EmergencyPage.css) */
+.button-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .button-container button {
+    background-color: #e74c3c; /* Red color for emergency */
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Added transitions */
+  }
+  
+  .button-container button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+    transform: scale(1.05); /* Add a scaling effect on hover */
+  }
+    

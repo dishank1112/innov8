@@ -1,0 +1,71 @@
+.nearest-hospitals {
+    text-align: center;
+    margin: 20px;
+  }
+
+  .hospital-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+.hospital-card.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+.harshit{
+    width: 700px;
+    height: 2000px;
+}
+  .hospital-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  cursor: pointer; /* Add a pointer cursor on hover */
+  }
+  .hospital-card:hover {
+    transform: translateY(0); /* Adjust the hover effect as desired */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .hospital-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .hospital-info {
+    margin-top: 10px;
+  }
+  @keyframes speedAnimation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .headline {
+    animation: speedAnimation 2s infinite;
+  }
+
+  #container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .hospital-list{
+    width: 50%;
+  }
+
+  
